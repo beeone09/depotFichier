@@ -1,0 +1,43 @@
+DROP TABLE IF EXISTS `client`;
+CREATE TABLE `client` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(80) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `phone` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+INSERT INTO `client` (`id`, `name`, `email`, `phone`) VALUES
+(1, 'Bob Leponge', 'bleponge@lpp.com', '123'),
+(2, 'Bruce Wayne', 'bwayne@lpp.re', '456'),
+(3, 'Joe Dalton', 'jdalton@lpp.re', '789'),
+(4, 'Calamity Jane', 'calamityjane@lpp.re', '9876543'),
+(5, 'Jon Snow', 'js@trone.fer', '99988'),
+(6, 'Pat Garrett', 'Garrett@gmail.re', '666456'),
+(7, 'Billy Zekid', 'billyzk@mail.re', '88789'),
+(8, 'Aisa Satou', 'as@mymel.com', '88876543'),
+(9, 'Arya Stark', 'aryastark@fer.com', '99988'),
+(10, 'Daenerys Targaryen', 'daenerys.targaryen@trone.fer', '10666456'),
+(11, 'Marion Game', 'mariongamek@mail.re', '1188789'),
+(12, 'Lucie Bronze', 'lbronze@mymel.com', '1288876543'),
+(13, 'Taylor Swift', 'tsw@lpp.re', '612012372'),
+(14, 'Anne Honyme', 'anho@mymail.com', '9845238'),
+(15, 'Charles Deltour', 'c.deltour@ailtech.re', '0262'),
+(16, 'Nadia Fime', 'n.fime@ailtech.re', '0262'),
+(17, 'Frank Ertau', 'f.ertau@ailtech.re', '0262'),
+(18, 'David Maneur', 'd.maneur@ailtech.re', '0262'),
+(19, 'Sylvie Berezovski', 's.berezovski@ailtech.re', '0262'),
+(20, 'Pascale Finley', 'p.finley@ailtech.re', '0262'),
+(21, 'Hector Vofur', 'h.vofur@ailtech.re', '0262'),
+(22, 'Fred Derzou', 'f.derzou@ailtech.re', '0262'),
+(23, 'Julie Serty', 'j.serty@ailtech.re', '0262'),
+(24, 'Victor Vofur', 'v.vofur@ailtech.re', '0262'),
+(25, 'Hugo Calende', 'h.calende@ailtech.re', '0262'),
+(26, 'Hubert Jemba', 'h.jemba@ailtech.re', '0262'),
+(27, 'Séverine Morin', 's.morin@ailtech.re', '0262'),
+(28, 'Tarek Benrech', 't.benrech@ailtech.re', '0262'),
+(29, 'Marc Nguyen', 'm.nguyen@test.re', '0692334455'),
+(30, 'Karima Louali', 'k.louali@ailtech.re', '0262'),
+(31, 'Marco Paolo', 'm.paolo@ailtech.re', '026289076'),
+(32, 'Joanna Map', 'j.map@ailtech.re', '0262'),
+(33, 'Fatoumata Koundé', 'f.koundé@ailtech.re', '0262123456');
